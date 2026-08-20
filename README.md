@@ -43,7 +43,7 @@ USA ($39,127), UK ($32,871), Ghana ($32,026), Zimbabwe ($30,124), and India ($29
 **7. What purchasing patterns can we identify from payment method and product preferences?**<br>
 No broad, business-wide correlation between payment method and product. Two isolated exceptions stand out: Canvas skews heavily toward Bank Transfer and away from Mobile Money, and Monk Straps skews toward Cash; neither strong enough to justify a single payment-method strategy.
 
-**8. Recommendations**
+### Recommendations
 - Prioritise inventory and marketing spend on `Canvas`, `Oxford`, and `Brogues` which already contribute to ~half of both revenue and profit.
 - Scale `Derby` deliberately (e.g. better placement/visibility) given its highest profit margin relative to its current low volume.
 - Review `Timberland's` continued assortment given its poor performance from the other four brands.
