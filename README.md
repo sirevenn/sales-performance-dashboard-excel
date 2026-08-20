@@ -88,6 +88,6 @@ sales-performance-dashboard-excel/
 3. Go to **Data → Refresh All** to rebuild the PivotTables from source data if needed.
 4. View the `analysis` sheet for each business question's table-and-chart pair, or the `dashboard` sheet for the full combined view shown above.
 
-##### *Credit:* *The Complete Excel Data Analysis Workflow [webinar](https://www.youtube.com/live/28JRwAWL_qg).*
-Organised by Esther Anagu | Founder, Learned 2 Hired and Edmond Nathan | Founder Zen Analytics Hub
-###### Built by following along then completed independently using the raw dirty dataset provided.
+### Credit
+*The Complete Excel Data Analysis Workflow [webinar](https://www.youtube.com/live/28JRwAWL_qg). Organised by Esther Anagu (Founder, Learned 2 Hired) and Edmond Nathan (Founder Zen Analytics Hub)*
+###### Built by following along then independently using the raw dirty dataset provided.
