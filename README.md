@@ -1,6 +1,6 @@
 # Sales Performance Dashboard (Excel)
 
-An Excel dashboard analysing shoe sales performance : revenue, profitability, product mix, brand and category performance, geography, and payment patterns. Built using  Power Query, PivotTables, and PivotCharts.
+An Excel dashboard analysing shoe sales performance across revenue, profitability, product mix, brand and category performance, geography, and payment patterns. Built using  Power Query, PivotTables, and PivotCharts.
 
 ![Dashboard Preview](charts/08_dashboard.png)
 
@@ -56,7 +56,7 @@ No broad, business-wide correlation between payment method and product. Two isol
 
 - Raw data contained inconsistent text casing across `Category`, `Brand`, and `Product` fields (e.g. "Formal" / "FORMAL" / "formal" treated as separate values); standardized using Power Query.
 - Added calculated fields: Cost Price, Selling Price, Cost, Revenue, Profit, and Profit Margin %.
-- The `products` sheet (product names, cost price, selling price) is intentionally duplicated in both `sales_data_raw.xlsx` and `sales_data_analysis.xlsx`, since VLOOKUP formulas in the analysis workbook reference it locally.
+- The `products` sheet (product names, cost price, selling price) is intentionally duplicated in both `shoe_sales_data_raw.xlsx` and `shoe_sales_data_analysis.xlsx`, since VLOOKUP formulas in the analysis workbook reference it locally.
 - Using a simple average of row-level percentages gave a 47.1% margin, because it skewed results toward low-volume transactions.
 - To correct this, Profit Margin % was calculated as **SUM(Profit) ÷ SUM(Revenue)** at each grouping level to reflect the actual average margin.
 
@@ -83,10 +83,11 @@ sales-performance-dashboard-excel/
 
 ### How to Use
 
-1. Clone or download this repo.
+1. Clone or download this [repo](https://github.com/sirevenn/sales-performance-dashboard-excel/tree/main).
 2. Open `analysis/shoe_sales_data_analysis.xlsx`.
 3. Go to **Data → Refresh All** to rebuild the PivotTables from source data if needed.
 4. View the `analysis` sheet for each business question's table-and-chart pair, or the `dashboard` sheet for the full combined view shown above.
 
-##### *Credit:* *The Complete Excel Data Analysis Workflow [webinar](https://www.youtube.com/live/28JRwAWL_qg). Organised by Esther Anagu | Founder, Learned 2 Hired and Edmond Nathan | Zen Analytics Hub*
+##### *Credit:* *The Complete Excel Data Analysis Workflow [webinar](https://www.youtube.com/live/28JRwAWL_qg).*
+Organised by Esther Anagu | Founder, Learned 2 Hired and Edmond Nathan | Founder Zen Analytics Hub
 ###### Built by following along then completed independently using the raw dirty dataset provided.
